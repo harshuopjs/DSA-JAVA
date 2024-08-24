@@ -13,6 +13,7 @@ public class array {
         System.out.print("Your Array is: \n");
         for (int i = 0; i < n; i++) {
             System.out.print(a[i]);
+            System.out.print(" ");
         }
         System.out.print("\n What task you want to perform \n Insertion[1] \n Deletion[2] \n");
         op = s.nextInt();
@@ -35,6 +36,7 @@ public class array {
             System.out.print("YOur new array is: ");
             for (int i = 0; i < n; i++) {
                 System.out.print(b[i]);
+                System.out.print(" ");
             }
         }
         if (op == 2) {
@@ -55,6 +57,7 @@ public class array {
             System.out.print("YOur new array is: ");
             for (int i = 0; i<n-1; i++){
                 System.out.print(b[i]);
+                System.out.print(" ");
             }
         }
     }
